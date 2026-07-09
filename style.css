@@ -334,6 +334,12 @@ hr {
     font-size: 14px;
     font-weight: 600;
     border-radius: 10px;
+    width: 304px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 .special-btn{
@@ -344,6 +350,8 @@ hr {
     font-size: 14px;
     font-weight: 600;
     border-radius: 10px;
+    width: 304px;
+    height: 45px;
 }
 
 .right-btn{
@@ -351,11 +359,6 @@ hr {
     font-weight: 600;
     color: black;
     border-radius: 10px;
-}
-
-button{
-    background-color: transparent;
-    border: 2px solid #2563eb;
     width: 304px;
     height: 45px;
 }
