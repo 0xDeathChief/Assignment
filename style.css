@@ -3,22 +3,16 @@
   padding: 0;
 }
 
-.container {
-  /* max-width: 12px; */
-  /* margin: auto; */
-}
-
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px 80px;
+  padding: 20px 100px;
   align-items: center;
-  height: ;
 }
 
 ul {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 ul li {
@@ -29,23 +23,98 @@ ul li {
 ul li a {
   text-decoration: none;
   font-family: "Arimo", sans-serif;
-  color:black;
+  color: black;
   font-weight: 500;
   font-size: 16px;
 }
 
-ul li a:hover{
-    text-decoration: underline;
+ul li a:hover {
+  text-decoration: underline;
 }
 
-.navbar-button{
-    background-color: #2563EB;
-    width: 188px;
-    height: 48px;
-    border-radius: 10px;
-    border: none;
-    color:whitesmoke;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+.navbar-button {
+  background-color: #2563eb;
+  width: 188px;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
+  color: whitesmoke;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navbar-button:hover {
+  text-transform: uppercase;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.banner-img {
+  background:
+    linear-gradient(280deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+    url("https://github.com/0xDeathChief/Assignment/blob/main/assets/banner.jpg");
+  width: 100%;
+  height: 871px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.banner-img h1 {
+  color: whitesmoke;
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  padding: 10px 0;
+
+  position: absolute;
+  top: 150px;
+}
+
+.banner-img p {
+  color: whitesmoke;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+
+  position: absolute;
+  top: 300px;
+}
+
+.banner-button {
+  background-color: #2563eb;
+  width: 282px;
+  height: 74px;
+  border-radius: 10px;
+  border: none;
+  color: whitesmoke;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 100px;
+
+  position: absolute;
+  bottom: 100px;
+}
+
+.banner-button:hover {
+  text-transform: uppercase;
+}
+
+.speakers {
+  display: flex;
+  justify-content: center;
 }
